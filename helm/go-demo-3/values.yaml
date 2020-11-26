@@ -5,7 +5,7 @@ image:
   dbTag: 3.3
 ingress:
   enabled: true
-  host: acme.com
+  host: cent2.dung.local
 service:
   # Change to NodePort if ingress.enable=false
   type: ClusterIP
@@ -34,4 +34,4 @@ dbPersistence:
   ##
   # storageClass: "-"
   accessMode: ReadWriteOnce
-  size: 2Gi
+  size: 1Gi
